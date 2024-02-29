@@ -40,7 +40,46 @@
 <circle cx="50" cy="113" r="2" fill="black"/>
 <circle cx="50" cy="169" r="2" fill="black"/>
 <circle cx="2" cy="169" r="2" fill="black"/>
-<rect x="1181.5" y="470.5" width="362" height="230" stroke="black"/>
+<circle cx="1225" cy="471" r="2" fill="black"/>
+<circle cx="1273" cy="471" r="2" fill="black"/>
+<circle cx="1273" cy="527" r="2" fill="black"/>
+<circle cx="1225" cy="527" r="2" fill="black"/>
+<circle cx="1225" cy="499" r="2" fill="black"/>
+<circle cx="1273" cy="499" r="2" fill="black"/>
+<circle cx="1273" cy="555" r="2" fill="black"/>
+<circle cx="1225" cy="555" r="2" fill="black"/>
+<circle cx="1249" cy="471" r="2" fill="black"/>
+<circle cx="1249" cy="527" r="2" fill="black"/>
+<circle cx="1249" cy="499" r="2" fill="black"/>
+<circle cx="1249" cy="555" r="2" fill="black"/>
+<circle cx="1225" cy="485" r="2" fill="black"/>
+<circle cx="1273" cy="485" r="2" fill="black"/>
+<circle cx="1273" cy="541" r="2" fill="black"/>
+<circle cx="1225" cy="541" r="2" fill="black"/>
+<circle cx="1225" cy="513" r="2" fill="black"/>
+<circle cx="1273" cy="513" r="2" fill="black"/>
+<circle cx="1273" cy="569" r="2" fill="black"/>
+<circle cx="1225" cy="569" r="2" fill="black"/>
+<circle cx="1249" cy="485" r="2" fill="black"/>
+<circle cx="1249" cy="541" r="2" fill="black"/>
+<circle cx="1249" cy="513" r="2" fill="black"/>
+<circle cx="1249" cy="569" r="2" fill="black"/>
+<circle cx="1237" cy="471" r="2" fill="black"/>
+<circle cx="1237" cy="527" r="2" fill="black"/>
+<circle cx="1237" cy="499" r="2" fill="black"/>
+<circle cx="1237" cy="555" r="2" fill="black"/>
+<circle cx="1261" cy="471" r="2" fill="black"/>
+<circle cx="1261" cy="527" r="2" fill="black"/>
+<circle cx="1261" cy="499" r="2" fill="black"/>
+<circle cx="1261" cy="555" r="2" fill="black"/>
+<circle cx="1237" cy="485" r="2" fill="black"/>
+<circle cx="1237" cy="541" r="2" fill="black"/>
+<circle cx="1237" cy="513" r="2" fill="black"/>
+<circle cx="1237" cy="569" r="2" fill="black"/>
+<circle cx="1261" cy="485" r="2" fill="black"/>
+<circle cx="1261" cy="541" r="2" fill="black"/>
+<circle cx="1261" cy="513" r="2" fill="black"/>
+<circle cx="1261" cy="569" r="2" fill="black"/>
 </g>
 <defs>
 <clipPath id="clip0_1_2">

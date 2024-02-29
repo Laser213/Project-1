@@ -16,6 +16,10 @@ h1 {
     font-size: 4rem;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 .bold {
     font-weight: 700;
 }
@@ -41,6 +45,8 @@ h1 {
     column-gap: 5%;
     margin-top: 10vh;
     margin: 4% 7%;
+    height: 55vh;
+    min-height: 500px;
 }
 
 .hero-background {
@@ -63,21 +69,40 @@ h1 {
     color: white;
 }
 
+.btn-primary:hover {
+    background-color: darkred;
+}
+
 .text-container {
     margin-top: 3%;
     z-index: 1;
     width: 40%;
 }
 
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-icon);
+}
+
 .bg-primary {
     background-color: #eeeeee !important;
 }
 
+.bg-secondary {
+    background-color: #000000 !important;
+}
 
+.header-container {
+    padding: 1% 2%;
+}
+
+.sticky {
+    position: sticky;
+}
 
 .slider-container {
     position: relative;
     max-width: 36rem;
+    max-height: 20rem;
 }
 
 .slider {
