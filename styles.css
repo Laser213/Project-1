@@ -83,6 +83,11 @@ h2 {
     background-image: var(--bs-accordion-btn-icon);
 }
 
+.accordion {
+    --bs-accordion-active-color: none;
+    --bs-accordion-active-bg: none;
+}
+
 .bg-primary {
     background-color: #eeeeee !important;
 }
