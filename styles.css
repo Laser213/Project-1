@@ -1,0 +1,167 @@
+/* <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900 */
+:root {
+    --root-background-color: #eeeeee;
+}
+
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.nav-flex {
+    display: flex;
+    column-gap: 1.5rem;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0rem;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.hero-container {
+    display: flex;
+    column-gap: 5%;
+    margin-top: 10vh;
+    margin: 4% 7%;
+}
+
+.hero-background {
+    background-image: url(/images/hero-background.svg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: 0;
+    padding-top: -5%;
+    align-items: center;
+}
+
+.btn-primary {
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 3%;
+    color: white;
+}
+
+.text-container {
+    margin-top: 3%;
+    z-index: 1;
+    width: 40%;
+}
+
+.bg-primary {
+    background-color: #eeeeee !important;
+}
+
+
+
+.slider-container {
+    position: relative;
+    max-width: 36rem;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: .5rem;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    width: 50vh;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+.slider-arrow {
+    display: flex;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    left: 5%;
+    top: 50%;
+}
+
+.slider-arrow2 {
+    display: flex;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    right: 5%;
+    top: 50%;
+}
+
+.arrow {
+    display: inline-block;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(225deg);
+    height: 1.5rem;
+    width: 1.5rem;
+    opacity: .75;
+}
+
+.arrow2 {
+    display: inline-block;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    height: 1.5rem;
+    width: 1.5rem;
+    opacity: .75;
+}
+
+.arrow:hover,
+.arrow2:hover {
+    opacity: 1;
+}
+
+.active {
+    opacity: 1 !important;
+}
