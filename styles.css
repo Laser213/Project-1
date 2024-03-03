@@ -54,6 +54,7 @@ h2 {
     text-decoration: none;
 }
 
+/* got this from https: //perishablepress.com/margin-offset-anchor-targets/ */
 :target::before {
     content: '';
     display: block;
