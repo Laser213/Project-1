@@ -172,6 +172,15 @@ h2 {
     height: 70px;
 }
 
+.checkered-container2 {
+    background-image: url(./images/checkered2.svg);
+    height: 70px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 .card-container {
     display: flex;
     position: relative;
@@ -192,7 +201,7 @@ h2 {
 
 .card {
     border-radius: 5px;
-    background-color: transparent;
+    background-color: white;
     display: flex;
     width: 300px;
     height: fit-content;
@@ -201,7 +210,7 @@ h2 {
 }
 
 .card:hover {
-    background-color: #ddd;
+    background-color: #eee;
     cursor: pointer;
 }
 
