@@ -23,13 +23,13 @@
 <body class="bg-primary">
     <header class="header-container sticky-top">
         <!-- As a heading -->
-        <nav class="navbar bg-primary shadow-sm rounded-2">
+        <nav class="navbar bg-primary shadow-sm rounded-2 border-red">
             <div class="container align-center">
-                <span class="navbar-brand mb-0 h1 montserrat">Navbar</span>
+                <a href="#"><span class="navbar-brand mb-0 h1 montserrato">The Audi R8</span></a>
                 <ul class="nav-flex">
-                    <li class="montserrat">Home</li>
-                    <li class="montserrat">About</li>
-                    <li class="montserrat">Contact</li>
+                    <a href="#"><li class="montserrat">Home</li></a>
+                    <a href="#About"><li class="montserrat">About</li></a>
+                    <a href="#LearnMore"><li class="montserrat">Learn More</li></a>
                 </ul> 
             </div>
         </nav>
@@ -39,16 +39,16 @@
             <div class="hero-background"></div>
             <div class="container hero-container">
                 <div class="text-container">
-                    <h1 class="montserrat bold mb-5">Quattro PWR</h1>
+                    <h1 class="montserrat bold mb-5">Audi R8</h1>
                     <p class="montserrat regular mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore debitis veniam, rerum nemo amet libero! Distinctio aut saepe ducimus pariatur eveniet error voluptatibus!</p>
-                    <button class="btn-primary">About the Cars</button>
+                    <button class="btn-primary">About the R8</button>
                 </div>
                 
                 <div class="slider-container">
                     <div class="slider">
-                        <img id="image1" src="/images/R8.jpg" alt="R8">
-                        <img id="image2" src="images/RS7.jpg" alt="RS7">
-                        <img id="image3" src="images/RS3.jpg" alt="RS3">
+                        <img id="image1" src="./images/R8.jpg" alt="R8">
+                        <img id="image2" src="./images/R8-2.jpg" alt="R8-2">
+                        <img id="image3" src="./images/R8-3.jpg" alt="R8-3">
                     </div>
                     <div class="slider-nav">
                         <a id="nav1" href="#image1"></a>
@@ -67,22 +67,38 @@
                                     </div> -->
                 </div>
             </div>
+            <div class="checkered-container"></div>
         </section>
-        <section class="bg-secondary">
+        <section class="video-section">
+            <div style="position: absolute; z-index: 1; width: 100%; height: 80vh">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3wiuFnTdq8Y?autoplay=1&mute=1&loop=1&controls=0&rel=0&loop=1&start=40"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; modestbranding"
+                    muted>
+                </iframe>
+            </div>
             <div class="container">
-                <h2 class="monserrat mx-5 pt-5 mb-5 text-white">About the Cars</h2>
-                <div class="accordion mx-5" id="accordionExample">
+                <div class="video-overlay">
+                    <h2 class="text-white montserrat bold pt-20">Experience the Power of Quattro</h2>
+                </div>
+            </div>
+
+        </section>
+        <section class="bg-secondary" id="About">
+            <div class="container pb-10">
+                <h2 class="monserrat mx-5 mb-5 text-white bold">About the R8</h2>
+                <div class="accordion mx-5 border-red" id="accordionExample">
                     <div class="accordion-item bg-primary">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                 aria-expanded="true" aria-controls="collapseOne">
-                                <h3 class="montserrat">R8</h3>
+                                <h3 class="montserrat">Design</h3>
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                
+                                <p>The Audi R8 debuted in 2007 with a brand new design based on the Le Mans concept car. It features all LED headlights, a mid-car engine, and curves fitting for a supercar.</p>
                             </div>
                         </div>
                     </div>
@@ -90,13 +106,17 @@
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <h3 class="montserrat">RS7</h3>
+                                <h3 class="montserrat">Performance</h3>
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                
+                                <p>The Audi R8 has had several engine and gearbox configurations over the years. These include a 
+                                    naturally aspirated 4.2 liter V8 (producing 400+ hp) and 5.2 liter V10 (producing 500-600+ hp). 
+                                    Known for its refined sound, these engines are still regarded as some of the best every created. 
+                                    Most R8 models came with a 6 speed gated manual or a 7 speed automatic. 
+                                    <br><br> Depending on the model, the R8 shoots to 60mph somewhere between 3.0 and 4.5 seconds.</p>
                             </div>
                         </div>
                     </div>
@@ -104,25 +124,59 @@
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <h3 class="montserrat">RS3</h3>
+                                <h3 class="montserrat">Price</h3>
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                
+                                <p>The 2007 base R8 cost around $110,000. Newer models have increased in the price and the current price 
+                                    for a 2023 R8 starts at $158,600. Given that 2023 was the last year for R8 production, these prices 
+                                    will likely continue to rise. Currently, 2007 R8s will go for around $60,000.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-
+        <div class="checkered-container" style="transform: rotate(180deg);" id="LearnMore"></div>
+        <section class="hero-background2">
+            <div class="container pt-10 pb-10 bg-primary">
+                <h2 class="montserrat bold mx-5 mb-5">Learn More</h2>
+                <div class="card-container">
+                    <a href="https://www.audiusa.com/us/web/en/models/r8/r8-heritage/2024/overview.html">
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="./images/R8-2.jpg" alt="Picture of an R8">
+                                <h5 class="montserrat mb-3">Audi Website</h5>
+                                <p class="montserrat light">Go to the official Audi website to learn more about the R8!</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.caranddriver.com/audi/r8">
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="./images/R8-3.jpg" alt="Picture of an R8">
+                                <h5 class="montserrat mb-3">Car and Driver</h5>
+                                <p class="montserrat light">Check out a review of the R8 from the best in the business!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-
+    <div class="checkered-container"></div>
+    <footer class="bg-secondary">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-4"><p class="montserrat text-eee">You made it to the bottom!</p></div>
+                <div class="col"></div>
+                <div class="col-4"><p class="montserrat text-eee">Page created by: Andrew Pochman</p></div>
+                <div class="col"></div>
+            </div>
+        </div>
     </footer>
     
 </body>
